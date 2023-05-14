@@ -1,0 +1,9 @@
+var xyz
+add R0 R1 R2
+movf R2 $1.5
+movf R1 $8.75
+addf R1 R2 R3
+movf R4 $2.25
+subf R3 R4 R3
+st R3 xyz
+hlt
